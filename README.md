@@ -11,4 +11,8 @@ How to run:
 7. In terminal: node original_beat_cloudflare.js
 8. Check your S3 bucket if it received the payload
 
-You can also have the script save the scraped content in text files locally by un-commenting: fs.writeFileSync(filename, cleancontent); and commenting: await uploadToS3(cleancontent, filename);
+You can also have the script save the scraped content in text files locally by 
+un-commenting: 
+fs.writeFileSync(filename, cleancontent); 
+and commenting: 
+await uploadToS3(cleancontent, filename);
